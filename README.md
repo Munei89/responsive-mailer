@@ -1,2 +1,2 @@
-# responsive-mailer
+# Responsive-mailer
 Responsive html mailer
