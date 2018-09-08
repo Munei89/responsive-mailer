@@ -6,6 +6,82 @@
   <meta name="format-detection" content="telephone=no" />
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
   <title>Responsive Mailer</title>
+  <style type="text/css">
+    body{ width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; }
+    .ReadMsgBody { width: 100%; }
+    .ExternalClass {width:100%;}
+    .backgroundTable {margin:0 auto; padding:0; width:100%!important;}
+    .ExternalClass * {line-height: 115%;}
+    p { margin: 0; }
+    div.tpl-content { padding: 0 !important; }
+    span.preheader{
+        display: none;
+        font-size: 1px;
+        visibility: hidden;
+        opacity: 0;
+        color: transparent;
+        height: 0;
+        width: 0;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    table, td {
+        border-collapse: collapse;
+    }
+    *[class="sm-show"], .sm-show {display:none; visibility: hidden}
+    @media only screen and (max-width: 795px) {
+        *[class="mobile-column"], .mobile-column {display: block;}
+        *[class="mob-column"], .mob-column {float: none !important;width: 100% !important;}
+        *[class="hide"], .hide {display:none !important;}
+        *[class="condensed"], .condensed {padding-bottom:40px !important; display: block;}
+        *[class="center"], .center {text-align:center !important; width:100% !important; height:auto !important;}
+        *[class="100pad"] {width:100% !important; padding:20px;}
+        *[class="100padleftright"] {width:100% !important; padding:0 20px 0 20px;}
+        *[class="100padtopbottom"] {width:100% !important; padding:20px 0 20px 0;}
+        *[class="hr"], .hr {width:100% !important;}
+        *[class="p10"], .p10   {width:10% !important; height:auto !important;}
+        *[class="p20"], .p20   {width:20% !important; height:auto !important;}
+        *[class="p30"], .p30   {width:30% !important; height:auto !important;}
+        *[class="p40"], .p40   {width:40% !important; height:auto !important;}
+        *[class="p50"], .p50   {width:50% !important; height:auto !important;}
+        *[class="p60"], .p60   {width:60% !important; height:auto !important;}
+        *[class="p70"], .p70   {width:70% !important; height:auto !important;}
+        *[class="p80"], .p80   {width:80% !important; height:auto !important;}
+        *[class="p90"], .p90   {width:90% !important; height:auto !important;}
+        *[class="p100"], .p100 {width:100% !important; height:auto !important;}
+        *[class="p15"], .p15   {width:15% !important; height:auto !important;}
+        *[class="p25"], .p25   {width:25% !important; height:auto !important;}
+        *[class="p33"], .p33   {width:33% !important; height:auto !important;}
+        *[class="p35"], .p35   {width:35% !important; height:auto !important;}
+        *[class="p45"], .p45   {width:45% !important; height:auto !important;}
+        *[class="p55"], .p55   {width:55% !important; height:auto !important;}
+        *[class="p65"], .p65   {width:65% !important; height:auto !important;}
+        *[class="p75"], .p75   {width:75% !important; height:auto !important;}
+        *[class="p85"], .p85   {width:85% !important; height:auto !important;}
+        *[class="p95"], .p95   {width:95% !important; height:auto !important;}
+        *[class="alignleft"] {text-align: left !important;}
+        *[class="100button"] {width:100% !important;}
+        *[class="mob-auto"], .mob-auto {width:auto !important; height: auto !important;}
+        *[class="sm-show"], .sm-show {display: initial !important; visibility: visible !important;}
+        *[class="sm-no-border"], .sm-no-border {
+            border-left: 0 !important;
+            border-top: 0 !important;
+            border-bottom: 0 !important;
+            border-right: 0 !important;
+        }
+    }
+    @media only screen and (max-width: 450px) {
+        *[class="xs-no-pad"], .xs-no-pad {padding: 0 !important;}
+        *[class="xs-p25"], .xs-p25 {width:25% !important; height:auto !important;}
+        *[class="xs-p50"], .xs-p50 {width:50% !important; height:auto !important;}
+        *[class="xs-p75"], .xs-p75 {width:75% !important; height:auto !important;}
+        *[class="xs-p100"], .xs-p100 {width:100% !important; height:auto !important;}
+        *[class="xs-hide"], .xs-hide {display:none !important;}
+        *[class="xs-header"], .xs-header {font-size: 45px !important}
+    }
+  </style>
 </head>
 <body>
   
